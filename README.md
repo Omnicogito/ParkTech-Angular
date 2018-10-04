@@ -3,7 +3,8 @@ We built this project using an ASP.NET Api that can be found [here](https://park
 Our deployed version of this project can be found [here](https://rmw-parkstndtech.herokuapp.com/).
 This project was built with a four person team of developers at [Eleven Fifty Academy](https://www.elevenfifty.org/) in Fishers. 
 
-# Frameworks and Libraries
+### Frameworks and Libraries
+[Angular 6](https://angular.io/)
 
 
 # How to use the application (web):
