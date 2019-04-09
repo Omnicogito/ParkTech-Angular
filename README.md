@@ -7,25 +7,25 @@ This project was built with a four person team of developers at [Eleven Fifty Ac
 [Angular 6](https://angular.io/)
 
 
-## How to use the application (web):
+## How to use the application (web) *API currently not deployed:
 1. Go to [https://rmw-parkstndtech.herokuapp.com/](https://rmw-parkstndtech.herokuapp.com/).
 2. Register a new user or login with an existing user.
 3. Links to different views are top left in the nav bar.
 4. When you first go to any page, the tables will be empty until you create your first data. In order to create a Trail or a My Park item, you must first have data in your Parks table. Likewise, you cannot create a My Park item without having data in both Trails and Parks. (The goal is to build out an admin level of access so that park officials could create and maintain park and trail info that would then be accessible to all users.
 5. Click "Add New Park" and fill out the form. This will create a new Park in your table. This may take a moment to update since we have the project deployed via the free version of Azure.
 6. After creating your Park you can procede to create Trails for that park in the same fashion:
-  * Add new Trail on the Trails page and fill out the form. You will notice that the Parks you can choose from are those that you have created in you're Parks table.
-  * After
-
+7. Add new Trail on the Trails page and fill out the form. You will notice that the Parks you can choose from are those that you have created in you're Parks table.
 
 ## How to use application (locally):
+1. Clone the Angular project
+2. Clone the [API](https://github.com/ransfordw/ParksAndTech)
+3. Open and run the API locally in Visual Studio. If the localhost is not http://localhost:50913/, you will need to update the ApiUrl in the ```src/environments/environment.prod.ts``` file to match your window.
+4. Open a command terminal in the directory of the cloned Angular project and run ```ng serve -o``` while the API is running.
+5. From here you should be able to navigate the Angular site and hit a local database on your machine.
+6. Steps 2-7 should apply from the web-based application instructions above.
 
 ## Credit
 This application was developed by [Akemjot Brar](https://github.com/akembrar7795), [Austen Gren](https://github.com/austengren), [Alaneh Morrison](https://github.com/alanehmorrison), and [Ransford Walker](https://github.com/ransfordw) during the July 2018 .NET cohort at [Eleven Fifty Academy](https://www.elevenfifty.org/). The same team also developed the linked api.
-
-
-
-
 
 # Parks and Tech
 
